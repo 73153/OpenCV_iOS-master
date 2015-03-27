@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'iOS Artwork Extractor' target in the 'iOS Artwork Extractor' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <QuartzCore/QuartzCore.h>
+	#import <UIKit/UIKit.h>
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < 40000
+@interface UIScreen (iOS4)
+@property(nonatomic,readonly) CGFloat scale;
+@end
+
+@interface UIImage (iOS4)
+@property(nonatomic,readonly) CGFloat scale;
+@end
+#endif
+
+#endif

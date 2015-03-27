@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* ArtworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* ArtworkViewController.m */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		C226CB891771BE9900908EF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C226CB881771BE9900908EF0 /* Default-568h@2x.png */; };
+		DA3A6AFF120A9C8E00915B15 /* Checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3A6AFE120A9C8E00915B15 /* Checkerboard.png */; };
+		DA3C70FA1141405200A99F39 /* ArtworkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C70F91141405200A99F39 /* ArtworkDetailViewController.m */; };
+		DA4F04D011E91862009A316E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4F04CF11E91862009A316E /* Icon.png */; };
+		DA88C82511FF401800FC6850 /* Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C82211FF401800FC6850 /* Artwork.png */; };
+		DA88C82611FF401800FC6850 /* Emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C82311FF401800FC6850 /* Emoji.png */; };
+		DA88C82711FF401800FC6850 /* GlossyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C82411FF401800FC6850 /* GlossyButton.png */; };
+		DA88C83211FF40E900FC6850 /* Artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C82F11FF40E900FC6850 /* Artwork@2x.png */; };
+		DA88C83311FF40E900FC6850 /* Emoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C83011FF40E900FC6850 /* Emoji@2x.png */; };
+		DA88C83411FF40E900FC6850 /* GlossyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C83111FF40E900FC6850 /* GlossyButton@2x.png */; };
+		DA88C84111FF432300FC6850 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88C84011FF432300FC6850 /* Icon@2x.png */; };
+		DA8BF5B9112EAC4E0044106B /* GlossyButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8BF5B8112EAC4E0044106B /* GlossyButtonViewController.m */; };
+		DA9AD659138FC3B200BDC968 /* FindSymbol.c in Sources */ = {isa = PBXBuildFile; fileRef = DA9AD658138FC3B200BDC968 /* FindSymbol.c */; };
+		DAB5333114B3C38400EDDE37 /* IPAArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5332E14B3C38400EDDE37 /* IPAArchive.m */; };
+		DAB5333214B3C38400EDDE37 /* IPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5333014B3C38400EDDE37 /* IPAViewController.m */; };
+		DAB5335F14B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5333814B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.m */; };
+		DAB5336114B3C39D00EDDE37 /* GMAppleDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5333C14B3C39D00EDDE37 /* GMAppleDouble.m */; };
+		DAB5336214B3C39D00EDDE37 /* NSData+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5333E14B3C39D00EDDE37 /* NSData+ZKAdditions.m */; };
+		DAB5336314B3C39D00EDDE37 /* NSDate+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334014B3C39D00EDDE37 /* NSDate+ZKAdditions.m */; };
+		DAB5336414B3C39D00EDDE37 /* NSDictionary+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334214B3C39D00EDDE37 /* NSDictionary+ZKAdditions.m */; };
+		DAB5336514B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334414B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.m */; };
+		DAB5336614B3C39D00EDDE37 /* NSFileManager+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334614B3C39D00EDDE37 /* NSFileManager+ZKAdditions.m */; };
+		DAB5336714B3C39D00EDDE37 /* NSString+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334814B3C39D00EDDE37 /* NSString+ZKAdditions.m */; };
+		DAB5336814B3C39D00EDDE37 /* ZKArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334A14B3C39D00EDDE37 /* ZKArchive.m */; };
+		DAB5336914B3C39D00EDDE37 /* ZKCDHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334C14B3C39D00EDDE37 /* ZKCDHeader.m */; };
+		DAB5336A14B3C39D00EDDE37 /* ZKCDTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5334E14B3C39D00EDDE37 /* ZKCDTrailer.m */; };
+		DAB5336B14B3C39D00EDDE37 /* ZKCDTrailer64.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335014B3C39D00EDDE37 /* ZKCDTrailer64.m */; };
+		DAB5336C14B3C39D00EDDE37 /* ZKCDTrailer64Locator.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335214B3C39D00EDDE37 /* ZKCDTrailer64Locator.m */; };
+		DAB5336D14B3C39D00EDDE37 /* ZKDataArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335414B3C39D00EDDE37 /* ZKDataArchive.m */; };
+		DAB5336E14B3C39D00EDDE37 /* ZKDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335614B3C39D00EDDE37 /* ZKDefs.m */; };
+		DAB5336F14B3C39D00EDDE37 /* ZKFileArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335814B3C39D00EDDE37 /* ZKFileArchive.m */; };
+		DAB5337014B3C39D00EDDE37 /* ZKLFHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335A14B3C39D00EDDE37 /* ZKLFHeader.m */; };
+		DAB5337114B3C39D00EDDE37 /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5335C14B3C39D00EDDE37 /* ZKLog.m */; };
+		DAB5337314B3C3E600EDDE37 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB5337214B3C3E600EDDE37 /* libz.dylib */; };
+		DAB5337614B3C4B100EDDE37 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5337414B3C4B100EDDE37 /* Unknown.png */; };
+		DAB5337714B3C4B100EDDE37 /* Unknown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5337514B3C4B100EDDE37 /* Unknown@2x.png */; };
+		DAB5337A14B3C65500EDDE37 /* IPA.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5337814B3C65500EDDE37 /* IPA.png */; };
+		DAB5337B14B3C65500EDDE37 /* IPA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5337914B3C65500EDDE37 /* IPA@2x.png */; };
+		DAB5337D14B3C67500EDDE37 /* IPAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB5337C14B3C67500EDDE37 /* IPAViewController.xib */; };
+		DAC796A011FD71E100A33F28 /* ArtworkDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC7969F11FD71E100A33F28 /* ArtworkDetailViewController.xib */; };
+		DAD7253F14BB9A80001ED756 /* NSString+IPAArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7253E14BB9A7F001ED756 /* NSString+IPAArchive.m */; };
+		DAF387911211AF30003DF2B8 /* UITintedGlassButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3878D1211AF30003DF2B8 /* UITintedGlassButtonHighlight@2x.png */; };
+		DAF387921211AF30003DF2B8 /* UITintedGlassButtonMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3878E1211AF30003DF2B8 /* UITintedGlassButtonMask@2x.png */; };
+		DAF387931211AF30003DF2B8 /* UITintedGlassButtonShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3878F1211AF30003DF2B8 /* UITintedGlassButtonShadow@2x.png */; };
+		DAFA3ECD14ADF53B00C532E9 /* ArtworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFA3ECC14ADF53B00C532E9 /* ArtworkViewController.xib */; };
+		DAFFB59C150A5CF400A4B6DC /* EmojiImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFFB59B150A5CF400A4B6DC /* EmojiImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iOS Artwork Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Artwork Extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* ArtworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtworkViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* ArtworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtworkViewController.m; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* iOS_Artwork_Extractor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_Artwork_Extractor_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iOS_Artwork_Extractor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS_Artwork_Extractor-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C226CB881771BE9900908EF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA3A6AFE120A9C8E00915B15 /* Checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Checkerboard.png; path = Resources/Checkerboard.png; sourceTree = "<group>"; };
+		DA3C70F81141405200A99F39 /* ArtworkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtworkDetailViewController.h; sourceTree = "<group>"; };
+		DA3C70F91141405200A99F39 /* ArtworkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtworkDetailViewController.m; sourceTree = "<group>"; };
+		DA4F04CF11E91862009A316E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		DA88C82211FF401800FC6850 /* Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Artwork.png; path = Resources/Artwork.png; sourceTree = "<group>"; };
+		DA88C82311FF401800FC6850 /* Emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Emoji.png; path = Resources/Emoji.png; sourceTree = "<group>"; };
+		DA88C82411FF401800FC6850 /* GlossyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlossyButton.png; path = Resources/GlossyButton.png; sourceTree = "<group>"; };
+		DA88C82F11FF40E900FC6850 /* Artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Artwork@2x.png"; path = "Resources/Artwork@2x.png"; sourceTree = "<group>"; };
+		DA88C83011FF40E900FC6850 /* Emoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Emoji@2x.png"; path = "Resources/Emoji@2x.png"; sourceTree = "<group>"; };
+		DA88C83111FF40E900FC6850 /* GlossyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GlossyButton@2x.png"; path = "Resources/GlossyButton@2x.png"; sourceTree = "<group>"; };
+		DA88C84011FF432300FC6850 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		DA8BF5B7112EAC4E0044106B /* GlossyButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossyButtonViewController.h; sourceTree = "<group>"; };
+		DA8BF5B8112EAC4E0044106B /* GlossyButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossyButtonViewController.m; sourceTree = "<group>"; };
+		DA9AD658138FC3B200BDC968 /* FindSymbol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FindSymbol.c; sourceTree = "<group>"; };
+		DA9AD664138FC4BD00BDC968 /* FindSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSymbol.h; sourceTree = "<group>"; };
+		DAB5332D14B3C38400EDDE37 /* IPAArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAArchive.h; sourceTree = "<group>"; };
+		DAB5332E14B3C38400EDDE37 /* IPAArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAArchive.m; sourceTree = "<group>"; };
+		DAB5332F14B3C38400EDDE37 /* IPAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAViewController.h; sourceTree = "<group>"; };
+		DAB5333014B3C38400EDDE37 /* IPAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAViewController.m; sourceTree = "<group>"; };
+		DAB5333714B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMAppleDouble+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5333814B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GMAppleDouble+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5333B14B3C39D00EDDE37 /* GMAppleDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAppleDouble.h; sourceTree = "<group>"; };
+		DAB5333C14B3C39D00EDDE37 /* GMAppleDouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAppleDouble.m; sourceTree = "<group>"; };
+		DAB5333D14B3C39D00EDDE37 /* NSData+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5333E14B3C39D00EDDE37 /* NSData+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5333F14B3C39D00EDDE37 /* NSDate+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5334014B3C39D00EDDE37 /* NSDate+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5334114B3C39D00EDDE37 /* NSDictionary+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5334214B3C39D00EDDE37 /* NSDictionary+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5334314B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5334414B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5334514B3C39D00EDDE37 /* NSFileManager+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5334614B3C39D00EDDE37 /* NSFileManager+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5334714B3C39D00EDDE37 /* NSString+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZKAdditions.h"; sourceTree = "<group>"; };
+		DAB5334814B3C39D00EDDE37 /* NSString+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZKAdditions.m"; sourceTree = "<group>"; };
+		DAB5334914B3C39D00EDDE37 /* ZKArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKArchive.h; sourceTree = "<group>"; };
+		DAB5334A14B3C39D00EDDE37 /* ZKArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKArchive.m; sourceTree = "<group>"; };
+		DAB5334B14B3C39D00EDDE37 /* ZKCDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDHeader.h; sourceTree = "<group>"; };
+		DAB5334C14B3C39D00EDDE37 /* ZKCDHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDHeader.m; sourceTree = "<group>"; };
+		DAB5334D14B3C39D00EDDE37 /* ZKCDTrailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDTrailer.h; sourceTree = "<group>"; };
+		DAB5334E14B3C39D00EDDE37 /* ZKCDTrailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDTrailer.m; sourceTree = "<group>"; };
+		DAB5334F14B3C39D00EDDE37 /* ZKCDTrailer64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDTrailer64.h; sourceTree = "<group>"; };
+		DAB5335014B3C39D00EDDE37 /* ZKCDTrailer64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDTrailer64.m; sourceTree = "<group>"; };
+		DAB5335114B3C39D00EDDE37 /* ZKCDTrailer64Locator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDTrailer64Locator.h; sourceTree = "<group>"; };
+		DAB5335214B3C39D00EDDE37 /* ZKCDTrailer64Locator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDTrailer64Locator.m; sourceTree = "<group>"; };
+		DAB5335314B3C39D00EDDE37 /* ZKDataArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDataArchive.h; sourceTree = "<group>"; };
+		DAB5335414B3C39D00EDDE37 /* ZKDataArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDataArchive.m; sourceTree = "<group>"; };
+		DAB5335514B3C39D00EDDE37 /* ZKDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDefs.h; sourceTree = "<group>"; };
+		DAB5335614B3C39D00EDDE37 /* ZKDefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDefs.m; sourceTree = "<group>"; };
+		DAB5335714B3C39D00EDDE37 /* ZKFileArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKFileArchive.h; sourceTree = "<group>"; };
+		DAB5335814B3C39D00EDDE37 /* ZKFileArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKFileArchive.m; sourceTree = "<group>"; };
+		DAB5335914B3C39D00EDDE37 /* ZKLFHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLFHeader.h; sourceTree = "<group>"; };
+		DAB5335A14B3C39D00EDDE37 /* ZKLFHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLFHeader.m; sourceTree = "<group>"; };
+		DAB5335B14B3C39D00EDDE37 /* ZKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLog.h; sourceTree = "<group>"; };
+		DAB5335C14B3C39D00EDDE37 /* ZKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLog.m; sourceTree = "<group>"; };
+		DAB5337214B3C3E600EDDE37 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DAB5337414B3C4B100EDDE37 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Unknown.png; path = Resources/Unknown.png; sourceTree = "<group>"; };
+		DAB5337514B3C4B100EDDE37 /* Unknown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unknown@2x.png"; path = "Resources/Unknown@2x.png"; sourceTree = "<group>"; };
+		DAB5337814B3C65500EDDE37 /* IPA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IPA.png; path = Resources/IPA.png; sourceTree = "<group>"; };
+		DAB5337914B3C65500EDDE37 /* IPA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IPA@2x.png"; path = "Resources/IPA@2x.png"; sourceTree = "<group>"; };
+		DAB5337C14B3C67500EDDE37 /* IPAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPAViewController.xib; sourceTree = SOURCE_ROOT; };
+		DAC7969F11FD71E100A33F28 /* ArtworkDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtworkDetailViewController.xib; path = ../ArtworkDetailViewController.xib; sourceTree = "<group>"; };
+		DAD7253D14BB9A7F001ED756 /* NSString+IPAArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IPAArchive.h"; sourceTree = "<group>"; };
+		DAD7253E14BB9A7F001ED756 /* NSString+IPAArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPAArchive.m"; sourceTree = "<group>"; };
+		DAF3878D1211AF30003DF2B8 /* UITintedGlassButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITintedGlassButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		DAF3878E1211AF30003DF2B8 /* UITintedGlassButtonMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITintedGlassButtonMask@2x.png"; sourceTree = "<group>"; };
+		DAF3878F1211AF30003DF2B8 /* UITintedGlassButtonShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITintedGlassButtonShadow@2x.png"; sourceTree = "<group>"; };
+		DAFA3ECC14ADF53B00C532E9 /* ArtworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArtworkViewController.xib; path = ../ArtworkViewController.xib; sourceTree = "<group>"; };
+		DAFFB59A150A5CF400A4B6DC /* EmojiImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiImageView.h; sourceTree = "<group>"; };
+		DAFFB59B150A5CF400A4B6DC /* EmojiImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				DAB5337314B3C3E600EDDE37 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				28216C950DB411BC00E5133A /* ArtworkViewController.h */,
+				28216C960DB411BC00E5133A /* ArtworkViewController.m */,
+				DAFA3ECC14ADF53B00C532E9 /* ArtworkViewController.xib */,
+				DA3C70F81141405200A99F39 /* ArtworkDetailViewController.h */,
+				DA3C70F91141405200A99F39 /* ArtworkDetailViewController.m */,
+				DAC7969F11FD71E100A33F28 /* ArtworkDetailViewController.xib */,
+				DAFFB59A150A5CF400A4B6DC /* EmojiImageView.h */,
+				DAFFB59B150A5CF400A4B6DC /* EmojiImageView.m */,
+				DA9AD664138FC4BD00BDC968 /* FindSymbol.h */,
+				DA9AD658138FC3B200BDC968 /* FindSymbol.c */,
+				DA8BF5B7112EAC4E0044106B /* GlossyButtonViewController.h */,
+				DA8BF5B8112EAC4E0044106B /* GlossyButtonViewController.m */,
+				DAD7253D14BB9A7F001ED756 /* NSString+IPAArchive.h */,
+				DAD7253E14BB9A7F001ED756 /* NSString+IPAArchive.m */,
+				DAB5332D14B3C38400EDDE37 /* IPAArchive.h */,
+				DAB5332E14B3C38400EDDE37 /* IPAArchive.m */,
+				DAB5332F14B3C38400EDDE37 /* IPAViewController.h */,
+				DAB5333014B3C38400EDDE37 /* IPAViewController.m */,
+				DAB5337C14B3C67500EDDE37 /* IPAViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iOS Artwork Extractor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iOS Artwork Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				C226CB881771BE9900908EF0 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				DAB5333314B3C39D00EDDE37 /* External */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			indentWidth = 4;
+			name = "iOS Artwork Extractor";
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* iOS_Artwork_Extractor_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA88C82211FF401800FC6850 /* Artwork.png */,
+				DA88C82F11FF40E900FC6850 /* Artwork@2x.png */,
+				DA88C82311FF401800FC6850 /* Emoji.png */,
+				DA88C83011FF40E900FC6850 /* Emoji@2x.png */,
+				DA88C82411FF401800FC6850 /* GlossyButton.png */,
+				DA88C83111FF40E900FC6850 /* GlossyButton@2x.png */,
+				DA3A6AFE120A9C8E00915B15 /* Checkerboard.png */,
+				DA4F04CF11E91862009A316E /* Icon.png */,
+				DA88C84011FF432300FC6850 /* Icon@2x.png */,
+				DAB5337814B3C65500EDDE37 /* IPA.png */,
+				DAB5337914B3C65500EDDE37 /* IPA@2x.png */,
+				DAF3878B1211AF30003DF2B8 /* Shared */,
+				DAB5337414B3C4B100EDDE37 /* Unknown.png */,
+				DAB5337514B3C4B100EDDE37 /* Unknown@2x.png */,
+				8D1107310486CEB800E47090 /* iOS_Artwork_Extractor-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5337214B3C3E600EDDE37 /* libz.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB5333314B3C39D00EDDE37 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5333414B3C39D00EDDE37 /* ZipKit */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		DAB5333414B3C39D00EDDE37 /* ZipKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5333714B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.h */,
+				DAB5333814B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.m */,
+				DAB5333914B3C39D00EDDE37 /* MacFUSE */,
+				DAB5333D14B3C39D00EDDE37 /* NSData+ZKAdditions.h */,
+				DAB5333E14B3C39D00EDDE37 /* NSData+ZKAdditions.m */,
+				DAB5333F14B3C39D00EDDE37 /* NSDate+ZKAdditions.h */,
+				DAB5334014B3C39D00EDDE37 /* NSDate+ZKAdditions.m */,
+				DAB5334114B3C39D00EDDE37 /* NSDictionary+ZKAdditions.h */,
+				DAB5334214B3C39D00EDDE37 /* NSDictionary+ZKAdditions.m */,
+				DAB5334314B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.h */,
+				DAB5334414B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.m */,
+				DAB5334514B3C39D00EDDE37 /* NSFileManager+ZKAdditions.h */,
+				DAB5334614B3C39D00EDDE37 /* NSFileManager+ZKAdditions.m */,
+				DAB5334714B3C39D00EDDE37 /* NSString+ZKAdditions.h */,
+				DAB5334814B3C39D00EDDE37 /* NSString+ZKAdditions.m */,
+				DAB5334914B3C39D00EDDE37 /* ZKArchive.h */,
+				DAB5334A14B3C39D00EDDE37 /* ZKArchive.m */,
+				DAB5334B14B3C39D00EDDE37 /* ZKCDHeader.h */,
+				DAB5334C14B3C39D00EDDE37 /* ZKCDHeader.m */,
+				DAB5334D14B3C39D00EDDE37 /* ZKCDTrailer.h */,
+				DAB5334E14B3C39D00EDDE37 /* ZKCDTrailer.m */,
+				DAB5334F14B3C39D00EDDE37 /* ZKCDTrailer64.h */,
+				DAB5335014B3C39D00EDDE37 /* ZKCDTrailer64.m */,
+				DAB5335114B3C39D00EDDE37 /* ZKCDTrailer64Locator.h */,
+				DAB5335214B3C39D00EDDE37 /* ZKCDTrailer64Locator.m */,
+				DAB5335314B3C39D00EDDE37 /* ZKDataArchive.h */,
+				DAB5335414B3C39D00EDDE37 /* ZKDataArchive.m */,
+				DAB5335514B3C39D00EDDE37 /* ZKDefs.h */,
+				DAB5335614B3C39D00EDDE37 /* ZKDefs.m */,
+				DAB5335714B3C39D00EDDE37 /* ZKFileArchive.h */,
+				DAB5335814B3C39D00EDDE37 /* ZKFileArchive.m */,
+				DAB5335914B3C39D00EDDE37 /* ZKLFHeader.h */,
+				DAB5335A14B3C39D00EDDE37 /* ZKLFHeader.m */,
+				DAB5335B14B3C39D00EDDE37 /* ZKLog.h */,
+				DAB5335C14B3C39D00EDDE37 /* ZKLog.m */,
+			);
+			path = ZipKit;
+			sourceTree = "<group>";
+		};
+		DAB5333914B3C39D00EDDE37 /* MacFUSE */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5333B14B3C39D00EDDE37 /* GMAppleDouble.h */,
+				DAB5333C14B3C39D00EDDE37 /* GMAppleDouble.m */,
+			);
+			path = MacFUSE;
+			sourceTree = "<group>";
+		};
+		DAF3878B1211AF30003DF2B8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3878D1211AF30003DF2B8 /* UITintedGlassButtonHighlight@2x.png */,
+				DAF3878E1211AF30003DF2B8 /* UITintedGlassButtonMask@2x.png */,
+				DAF3878F1211AF30003DF2B8 /* UITintedGlassButtonShadow@2x.png */,
+			);
+			name = Shared;
+			path = Resources/Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iOS Artwork Extractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOS Artwork Extractor" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Artwork Extractor";
+			productName = "iOS Artwork Extractor";
+			productReference = 1D6058910D05DD3D006BFB54 /* iOS Artwork Extractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Cédric Luthi";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS Artwork Extractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iOS Artwork Extractor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iOS Artwork Extractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				DA4F04D011E91862009A316E /* Icon.png in Resources */,
+				DAC796A011FD71E100A33F28 /* ArtworkDetailViewController.xib in Resources */,
+				DA88C82511FF401800FC6850 /* Artwork.png in Resources */,
+				DA88C82611FF401800FC6850 /* Emoji.png in Resources */,
+				DA88C82711FF401800FC6850 /* GlossyButton.png in Resources */,
+				DA88C83211FF40E900FC6850 /* Artwork@2x.png in Resources */,
+				DA88C83311FF40E900FC6850 /* Emoji@2x.png in Resources */,
+				DA88C83411FF40E900FC6850 /* GlossyButton@2x.png in Resources */,
+				DA88C84111FF432300FC6850 /* Icon@2x.png in Resources */,
+				DA3A6AFF120A9C8E00915B15 /* Checkerboard.png in Resources */,
+				DAF387911211AF30003DF2B8 /* UITintedGlassButtonHighlight@2x.png in Resources */,
+				DAF387921211AF30003DF2B8 /* UITintedGlassButtonMask@2x.png in Resources */,
+				DAF387931211AF30003DF2B8 /* UITintedGlassButtonShadow@2x.png in Resources */,
+				DAFA3ECD14ADF53B00C532E9 /* ArtworkViewController.xib in Resources */,
+				DAB5337614B3C4B100EDDE37 /* Unknown.png in Resources */,
+				DAB5337714B3C4B100EDDE37 /* Unknown@2x.png in Resources */,
+				DAB5337A14B3C65500EDDE37 /* IPA.png in Resources */,
+				DAB5337B14B3C65500EDDE37 /* IPA@2x.png in Resources */,
+				DAB5337D14B3C67500EDDE37 /* IPAViewController.xib in Resources */,
+				C226CB891771BE9900908EF0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* ArtworkViewController.m in Sources */,
+				DA8BF5B9112EAC4E0044106B /* GlossyButtonViewController.m in Sources */,
+				DA3C70FA1141405200A99F39 /* ArtworkDetailViewController.m in Sources */,
+				DA9AD659138FC3B200BDC968 /* FindSymbol.c in Sources */,
+				DAB5333114B3C38400EDDE37 /* IPAArchive.m in Sources */,
+				DAB5333214B3C38400EDDE37 /* IPAViewController.m in Sources */,
+				DAB5335F14B3C39D00EDDE37 /* GMAppleDouble+ZKAdditions.m in Sources */,
+				DAB5336114B3C39D00EDDE37 /* GMAppleDouble.m in Sources */,
+				DAB5336214B3C39D00EDDE37 /* NSData+ZKAdditions.m in Sources */,
+				DAB5336314B3C39D00EDDE37 /* NSDate+ZKAdditions.m in Sources */,
+				DAB5336414B3C39D00EDDE37 /* NSDictionary+ZKAdditions.m in Sources */,
+				DAB5336514B3C39D00EDDE37 /* NSFileHandle+ZKAdditions.m in Sources */,
+				DAB5336614B3C39D00EDDE37 /* NSFileManager+ZKAdditions.m in Sources */,
+				DAB5336714B3C39D00EDDE37 /* NSString+ZKAdditions.m in Sources */,
+				DAB5336814B3C39D00EDDE37 /* ZKArchive.m in Sources */,
+				DAB5336914B3C39D00EDDE37 /* ZKCDHeader.m in Sources */,
+				DAB5336A14B3C39D00EDDE37 /* ZKCDTrailer.m in Sources */,
+				DAB5336B14B3C39D00EDDE37 /* ZKCDTrailer64.m in Sources */,
+				DAB5336C14B3C39D00EDDE37 /* ZKCDTrailer64Locator.m in Sources */,
+				DAB5336D14B3C39D00EDDE37 /* ZKDataArchive.m in Sources */,
+				DAB5336E14B3C39D00EDDE37 /* ZKDefs.m in Sources */,
+				DAB5336F14B3C39D00EDDE37 /* ZKFileArchive.m in Sources */,
+				DAB5337014B3C39D00EDDE37 /* ZKLFHeader.m in Sources */,
+				DAB5337114B3C39D00EDDE37 /* ZKLog.m in Sources */,
+				DAD7253F14BB9A80001ED756 /* NSString+IPAArchive.m in Sources */,
+				DAFFB59C150A5CF400A4B6DC /* EmojiImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_Artwork_Extractor_Prefix.pch;
+				INFOPLIST_FILE = "iOS_Artwork_Extractor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "iOS Artwork Extractor";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_Artwork_Extractor_Prefix.pch;
+				INFOPLIST_FILE = "iOS_Artwork_Extractor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "iOS Artwork Extractor";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOS Artwork Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS Artwork Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
